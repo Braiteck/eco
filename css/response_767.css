@@ -128,6 +128,12 @@
     /*--------------
         Products
     --------------*/
+    .products .block_head .title .icon
+    {
+        display: none;
+    }
+
+
     .products .row > *,
     .products .row.mini > *
     {
@@ -552,6 +558,48 @@
     {
         height: 460px;
         padding: 20px 0;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .image,
+    .product_info .info
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .product_info .info
+    {
+        margin-top: 30px;
+    }
+
+
+    .product_info .info .buy .price
+    {
+        font-size: 28px;
+    }
+
+    .product_info .info .buy .price .old
+    {
+        font-size: 14px;
+        line-height: 16px;
+
+        margin-bottom: 2px;
+    }
+
+
+    .product_info .months .item
+    {
+        width: 33.333%;
+    }
+
+    .product_info .months .item img
+    {
+        margin-left: 10px;
     }
 
 

@@ -574,6 +574,40 @@
 
 
 
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .image,
+    .product_info .info
+    {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+
+    .product_info .information
+    {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-top: 60px;
+    }
+
+
+    .product_info .description
+    {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+        margin-top: 60px;
+    }
+
+
+    .product_info .info .buy .price
+    {
+        font-size: 32px;
+    }
+
+
+
     /*---------------
         Load more
     ---------------*/
