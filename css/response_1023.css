@@ -27,6 +27,14 @@
     /*------------
         Header
     ------------*/
+    .header_wrap
+    {
+        height: auto !important;
+        margin: 0;
+    }
+
+
+    .mob_header_wrap,
     .mob_header
     {
         display: block;

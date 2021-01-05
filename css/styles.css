@@ -277,6 +277,11 @@ button
     margin-right: var(--scroll_width) !important;
 }
 
+.compensate-for-scrollbar header.fixed
+{
+    padding-right: var(--scroll_width) !important;
+}
+
 
 .lozad
 {
@@ -584,6 +589,11 @@ button
 /*------------
     Header
 ------------*/
+.header_wrap
+{
+    margin-bottom: 10px;
+}
+
 header
 {
     position: relative;
@@ -593,6 +603,15 @@ header
 
     width: 100%;
     margin-bottom: 10px;
+
+    transition: .2s linear;
+
+    background: #fff;
+}
+
+.header_wrap header
+{
+    margin-bottom: 0;
 }
 
 
@@ -649,6 +668,8 @@ header.show > .close
 header .info
 {
     padding: 13px 0;
+
+    transition: padding .2s linear;
 }
 
 header .info .cont.row
@@ -1090,6 +1111,13 @@ header .menu .item > a.active
 
 
 
+.mob_header_wrap
+{
+    display: none;
+
+    margin-bottom: 10px;
+}
+
 .mob_header
 {
     position: relative;
@@ -1102,7 +1130,17 @@ header .menu .item > a.active
     width: 100%;
     margin-bottom: 10px;
     padding: 5px 0;
+
+    transition: .2s linear;
+
+    background: #fff;
 }
+
+.mob_header_wrap .mob_header
+{
+    margin-bottom: 0;
+}
+
 
 .mob_header .cont
 {
@@ -1251,6 +1289,33 @@ header .menu .item > a.active
 .mob_header .mob_menu_btn span:after
 {
     top: 8px;
+}
+
+
+
+header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+
+    box-shadow: 0 1px 4px rgba(115, 114, 124, .25);
+}
+
+header.fixed .info
+{
+    padding: 0;
+}
+
+
+.mob_header.fixed
+{
+    position: fixed;
+
+    margin: 0;
+    padding: 0;
+
+    box-shadow: 0 1px 4px rgba(115, 114, 124, .25);
 }
 
 
