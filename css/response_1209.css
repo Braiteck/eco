@@ -1,0 +1,688 @@
+@media print, (max-width: 1209px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 360px;
+        --font_size: 15px;
+        --font_size_title: 23px;
+    }
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 32px);
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .owl-carousel .owl-nav button.owl-prev
+    {
+        left: -8px;
+    }
+
+    .owl-carousel .owl-nav button.owl-next
+    {
+        right: -8px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .info
+    {
+        padding: 10px 0;
+    }
+
+
+
+    header .top .sep
+    {
+        height: 46px;
+    }
+
+
+    header .socials,
+    header .consult_btn + .sep,
+    header .download_catalog
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .send_resume
+    {
+        padding: 32px;
+    }
+
+    aside .send_resume .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-bottom: 30px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .page_title
+    {
+        padding-bottom: 14px;
+    }
+
+
+    .page_links > * + *
+    {
+        margin-left: 30px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+    .block_head .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .line
+    {
+        margin-bottom: 22px;
+    }
+
+
+    .form .input
+    {
+        height: 44px;
+    }
+
+
+    .form input[type=checkbox] + label
+    {
+        line-height: 20px;
+
+        min-height: 20px;
+        padding-left: 32px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row.mini .product
+    {
+        padding: 15px 15px 25px;
+    }
+
+
+    .products .product.big_h
+    {
+        padding: 20px !important;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .services .row > *
+    {
+        width: calc(43% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .services .row > *.big
+    {
+        width: calc(57% - 15px);
+    }
+
+    .services .row > *.full
+    {
+        width: calc(100% - 15px);
+    }
+
+
+    .services .service
+    {
+        font-size: 18px;
+
+        min-height: 220px;
+    }
+
+
+
+    /*----------------
+        Guide cats
+    ----------------*/
+    .guide_cats .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .guide_cats .row > *
+    {
+        width: calc(20% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .guide_cats .item
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    /*------------------------
+        Guide requirements
+    ------------------------*/
+    .guide_requirements .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------
+        Search
+    ------------*/
+    .search
+    {
+        margin-bottom: 30px;
+    }
+
+    .search form .field
+    {
+        width: calc(100% - 361px);
+    }
+
+    .search form .submit_btn
+    {
+        width: 178px;
+    }
+
+
+
+    /*----------------
+        Guide info
+    ----------------*/
+    .guide_info .item .links > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item
+    {
+        line-height: 20px;
+
+        padding: 25px 20px;
+    }
+
+    .contacts_info .item .icon
+    {
+        height: 20px;
+        margin-right: 9px;
+    }
+
+    .contacts_info .item .icon + *
+    {
+        width: calc(100% - 25px);
+    }
+
+
+    .contacts_info .bottom
+    {
+        margin-top: 50px;
+    }
+
+
+
+    /*---------------
+        Cats wall
+    ---------------*/
+    .cats_wall .row
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .cats_wall .row > *
+    {
+        width: calc(43% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .cats_wall .row > *.big
+    {
+        width: calc(57% - 15px);
+    }
+
+    .cats_wall .row > *.full
+    {
+        width: calc(100% - 15px);
+    }
+
+
+    .cats_wall .cat
+    {
+        font-size: 18px;
+
+        min-height: 220px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .info
+    {
+        padding: 20px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .main_video
+    {
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+    }
+
+    .videos .main_video .desc
+    {
+        margin-top: 35px;
+    }
+
+
+    .videos .slider
+    {
+        padding: 0 30px;
+    }
+
+
+    .videos .video .name
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding: 15px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .owl-item
+    {
+        transition: none;
+
+        opacity: 1;
+    }
+
+    .main_slider .owl-item.active
+    {
+        opacity: 1;
+    }
+
+
+    .main_slider .slide .img
+    {
+        top: -20px;
+        left: 50px;
+
+        margin-left: 0;
+    }
+
+
+    .main_slider .slide .info
+    {
+        margin-left: 350px;
+    }
+
+
+    .main_slider .links
+    {
+        right: -20px;
+
+        display: none;
+
+        width: 320px;
+        margin-right: 0;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+    .why .row > *
+    {
+        width: calc(25% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .why .item
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        height: 223px;
+    }
+
+    .why .item .icon
+    {
+        right: -37px;
+    }
+
+
+
+    /*------------------
+        Our products
+    ------------------*/
+    .our_products .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .our_products .row > *
+    {
+        width: calc(25% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+    .our_products .item
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        min-height: 188px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .advantages .row
+    {
+        margin-left: -20px;
+    }
+
+    .about_block .advantages .row > *
+    {
+        max-width: calc(33.333% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .about_block .advantages .item
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .about_block .video_link
+    {
+        padding-bottom: 352px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        min-height: 360px;
+        padding: 60px 0;
+    }
+
+
+    .team .img
+    {
+        left: 0;
+
+        width: calc(100% - 360px);
+        margin-left: 0;
+    }
+
+
+    .team .block_head
+    {
+        width: 330px;
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news .item .thumb,
+    .news .item .info
+    {
+        min-height: 168px;
+    }
+
+
+
+    /*-------------------
+        Socials block
+    -------------------*/
+    .socials_block .img
+    {
+        bottom: -46px;
+        left: 20px;
+
+        margin-left: 0;
+    }
+
+
+    .socials_block .data
+    {
+        width: 630px;
+    }
+
+
+
+    .map_block
+    {
+        height: 560px;
+        padding: 70px 0;
+    }
+
+
+
+    /*---------------
+        Load more
+    ---------------*/
+    .load_more
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0 40px;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 40px;
+    }
+
+
+
+    footer .menu > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+
+    footer .phones > * + *
+    {
+        margin-top: 24px;
+    }
+
+    footer .phones .flag
+    {
+        width: 36px;
+        margin-right: 20px;
+    }
+
+    footer .phones .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    footer .subscribe
+    {
+        width: 508px;
+    }
+
+    footer .subscribe .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+    }
+
+    footer .subscribe form + form
+    {
+        margin-top: 20px;
+    }
+
+    footer .subscribe form .input
+    {
+        width: calc(100% - 193px);
+    }
+
+    footer .subscribe form .submit_btn
+    {
+        width: 178px;
+    }
+
+
+
+    footer .socials
+    {
+        width: 508px;
+    }
+
+    footer .socials .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-bottom: 15px;
+    }
+
+    footer .socials .items a
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+    footer .socials .items a + a
+    {
+        margin-left: 15px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

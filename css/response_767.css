@@ -1,0 +1,584 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 21px;
+    }
+
+
+    .tablet_hide
+    {
+        display: block !important;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header .logo a,
+    .mob_header .logo img
+    {
+        width: 200px;
+    }
+
+
+    .mob_header .feedback_btn
+    {
+        display: none;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .page_links
+    {
+        margin-bottom: -5px;
+        margin-left: -20px;
+        padding: 10px 0;
+    }
+
+    .page_links a,
+    .page_links > * + *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 5px;
+        margin-left: 20px;
+        padding: 10px 0;
+
+        white-space: normal;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 25px;
+    }
+
+    .block_head .title
+    {
+        line-height: 25px;
+    }
+
+    .block_head .title.border
+    {
+        padding-bottom: 10px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .text_block img,
+    .text_block .img
+    {
+        margin: 30px 0;
+    }
+
+
+    .text_block ul li + li
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row > *,
+    .products .row.mini > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .products .product .name br
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row > *,
+    .services .row > *.big,
+    .services .row > *.full
+    {
+        width: calc(100% - 10px);
+    }
+
+
+    .services .service
+    {
+        min-height: 160px;
+    }
+
+
+
+    /*------------
+        Search
+    ------------*/
+    .search form .field
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .search form .input
+    {
+        border-radius: 2px;
+    }
+
+
+    .search form .caterory
+    {
+        width: calc(100% - 160px);
+        margin-left: 0;
+    }
+
+    .search form .nice-select .current
+    {
+        border-radius: 2px;
+    }
+
+
+    .search form .submit_btn
+    {
+        width: 148px;
+    }
+
+
+
+    /*----------------
+        Guide cats
+    ----------------*/
+    .guide_cats .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .guide_cats .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        min-height: 178px;
+    }
+
+
+
+    /*------------------------
+        Guide requirements
+    ------------------------*/
+    .guide_requirements .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Guide info
+    ----------------*/
+    .guide_info .row
+    {
+        margin-bottom: -50px;
+        margin-left: -20px;
+    }
+
+    .guide_info .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+
+
+    .guide_info .item .title
+    {
+        margin-bottom: 17px;
+        padding-bottom: 15px;
+    }
+
+    .guide_info .item .links > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    .guide_info .item:nth-child(3n+1):before,
+    .guide_info .item:nth-child(3n+1) .title:before
+    {
+        display: block;
+    }
+
+    .guide_info .item:nth-child(2n+1):before,
+    .guide_info .item:nth-child(2n+1) .title:before
+    {
+        display: none;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item
+    {
+        padding: 25px 20px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 40px;
+    }
+
+
+
+    /*---------------
+        Cats wall
+    ---------------*/
+    .cats_wall .row > *,
+    .cats_wall .row > *.big,
+    .cats_wall .row > *.full
+    {
+        width: calc(100% - 10px);
+    }
+
+
+    .cats_wall .cat
+    {
+        min-height: 160px;
+    }
+
+
+
+    /*-----------------
+        Bottom text
+    -----------------*/
+    .bottom_text .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    /*----------
+        Blog
+    ----------*/
+    .blog .page_head .tabs > *
+    {
+        width: 33.333%;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .main_video .video .thumb
+    {
+        padding-bottom: 65%;
+    }
+
+    .videos .main_video .video:before
+    {
+        width: 68px;
+        height: 68px;
+
+        background-size: 20px 25px;
+    }
+
+    .videos .main_video .desc
+    {
+        margin-top: 24px;
+    }
+
+    .videos .main_video .name a
+    {
+        font-size: 15px;
+        line-height: 44px;
+
+        width: 188px;
+        min-width: 188px;
+        height: 44px;
+        margin-left: 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider
+    {
+        margin-bottom: 50px;
+    }
+
+    .main_slider .slide .cont
+    {
+        min-height: 360px;
+    }
+
+
+    .main_slider .slide .img
+    {
+        display: none;
+    }
+
+
+    .main_slider .slide .info
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .main_slider .slide .desc
+    {
+        margin-top: 20px;
+    }
+
+    .main_slider .slide .against
+    {
+        font-size: 11px;
+        line-height: 15px;
+
+        margin-top: 25px;
+    }
+
+
+
+    /*---------
+        Why
+    ---------*/
+    .why .row
+    {
+        margin-bottom: -60px;
+    }
+
+    .why .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 60px;
+    }
+
+
+
+    /*------------------
+        Our products
+    ------------------*/
+    .our_products .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .our_products .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .our_products .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        min-height: 138px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .advantages .item
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .about_block .advantages .item br
+    {
+        display: none;
+    }
+
+    .about_block .advantages .item b
+    {
+        display: block;
+    }
+
+
+    .about_block .video_link
+    {
+        padding-bottom: 65%;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .wheelSlider-container
+    {
+        width: 380px;
+    }
+
+    .reviews .wheelSlider-container .slide.prev
+    {
+        left: calc(-100% - 5px);
+    }
+
+    .reviews .wheelSlider-container .slide.next
+    {
+        left: calc(100% + 4px);
+    }
+
+
+
+    /*----------
+        News
+    ----------*/
+    .news .item .info
+    {
+        padding: 12px;
+    }
+
+
+
+    /*-------------------
+        Socials block
+    -------------------*/
+    .socials_block
+    {
+        min-height: 0;
+        padding: 60px 0;
+    }
+
+
+    .socials_block .img
+    {
+        display: none;
+    }
+
+
+    .socials_block .data
+    {
+        width: 100%;
+    }
+
+    .socials_block .socials
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*---------------
+        Map block
+    ---------------*/
+    .map_block
+    {
+        height: 460px;
+        padding: 20px 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .phones
+    {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+    footer .logo
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 20px;
+    }
+}
